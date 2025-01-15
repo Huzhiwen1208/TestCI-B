@@ -2,7 +2,7 @@ name: Github Work
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   repository_dispatch:
-    types: [trigger-from-AAAA]
+    types: [trigger-from-A]
 jobs:
   GitHub-Actions:
     runs-on: ubuntu-latest
